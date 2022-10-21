@@ -1,0 +1,34 @@
+// файл обнуления
+@import "./main/reset.scss";
+// файл переменных
+@import "./main/vars.scss";
+
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*шаблонные стили (подлежат замене )*/
+html{
+	background: #fff;
+	font-size: 16px;
+	line-height: 120%;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*параметры контейнера не меняются(могут дополнятся)*/
+.container{
+	max-width: 100%;/*задать ширину*/
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+// файл стилей определенной секции из компонентов
+@import "./components/section1.scss";
