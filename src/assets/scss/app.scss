@@ -14,24 +14,51 @@
 }
 /*шаблонные стили (подлежат замене )*/
 html{
-	background: #fff;
 	font-family: 'Roboto','sans-serif';
+	color: rgba(15, 1, 1, 1);
 	font-size: 16px;
-	line-height: 120%;
+	line-height: 24px;
 	font-weight: 400;
 	font-style: normal;
-}
-
-/*параметры контейнера не меняются(могут дополнятся)*/
-.container{
-	max-width: 100%;/*задать ширину*/
-	padding: 0 15px;
-	margin: 0 auto;
 }
 
 img{
 	max-width: 100%;
 }
 
+.btn{
+	width: 165px;
+	height: 49px;
+	background:$primary_pink;
+	border-radius: 5px;
+	border: none;
+	font-family: 'Hind Madurai';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	color: #FAFAFA;
+
+	&:hover{
+		border: 1px solid black;
+	}
+	&:active{
+		border: 1px solid white;
+		font-size: 15px;
+	}
+}
+
+body{
+	max-width: 1600px;
+	background: rgba(255, 255, 255, 1);
+}
+
+/*параметры контейнера не меняются(могут дополнятся)*/
+.container{
+	max-width: 1195px;/*задать ширину*/
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+
 // файл стилей определенной секции из компонентов
-@import "./components/section1.scss";
