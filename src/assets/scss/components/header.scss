@@ -1,0 +1,110 @@
+@import '../main/stylesheet.scss';
+@import './main/vars.scss';
+
+.header{
+	background: $primary-bgrs;
+	max-width: 1600px;
+}
+
+.container{
+	max-width: 1139px;/*задать ширину*/
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header__head{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 11px;
+}
+
+.header__menu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__link{
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		opacity: 0.6;
+		text-decoration: none;
+		padding: 0 20px;
+		&:hover{
+			font-weight: 700;
+			color: $primary-pink;
+			opacity: 1;
+			padding: 0 20px;
+		}
+		&:active{
+			font-weight: 700;
+			color: $primary-pink;
+			opacity: 1;
+			padding: 0 20px;
+		}
+	}
+
+
+.header__btn{}
+
+.header__fs{
+	padding: 37px 0 213px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header__column{}
+
+.header__subtitle{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+}
+
+.header__title{
+	font-family: 'Fredoka One';
+	font-weight: 400;
+	font-size: 57.33px;
+	line-height: 69px;
+	opacity: 0.9;
+	max-width: 665px;
+	padding: 6px 0 35px 0;
+	span{
+		color:$primary-pink;
+	}
+}
+
+.header__text{
+	font-family: 'Hind Madurai';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	opacity: 0.6;
+	max-width: 553px;
+	padding-bottom: 50px;
+}
+
+.header__btnfs{}
+
+.header__imgs{}
+
+.header__icecream{
+	position: absolute;
+	z-index: 5;
+}
+
+.header__milk{
+	position: absolute;
+	z-index: 6;
+}
+
+.header__ellips{
+	position: absolute;
+	z-index: 4;
+}

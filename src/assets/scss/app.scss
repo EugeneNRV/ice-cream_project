@@ -15,7 +15,7 @@
 /*шаблонные стили (подлежат замене )*/
 html{
 	font-family: 'Roboto','sans-serif';
-	color: rgba(15, 1, 1, 1);
+	color: rgba(0, 0, 0, 1);
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -54,7 +54,7 @@ body{
 
 /*параметры контейнера не меняются(могут дополнятся)*/
 .container{
-	max-width: 1195px;/*задать ширину*/
+	max-width: 1139px;/*задать ширину*/
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -62,3 +62,4 @@ body{
 
 
 // файл стилей определенной секции из компонентов
+@import '../scss/components/header.scss';
