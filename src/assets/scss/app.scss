@@ -49,6 +49,7 @@ img{
 body{
 	max-width: 1600px;
 	background: rgba(255, 255, 255, 1);
+	margin: 0 auto
 }
 
 /*параметры контейнера не меняются(могут дополнятся)*/
@@ -63,3 +64,4 @@ body{
 
 // файл стилей определенной секции из компонентов
 @import '../scss/components/header.scss';
+@import '../scss/components/section2.scss';

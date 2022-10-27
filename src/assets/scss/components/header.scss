@@ -2,42 +2,152 @@
 
 
 
+
+
+
 .header{
 	background: $primary-bgrs;
+	position: relative;
 }
 
 .container{
 	// position: relative;
-	max-width: 1600px;/*задать ширину*/
+	max-width: 1117px;/*задать ширину*/
 	padding: 0 15px;
 	margin: 0 auto;
 }
 
-
-
-.header__head{
+.head{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 11px;
+
+	&__logo{
+		position: relative;
+		top: 9px;
+		right: 15px;
+	}
+
+	&__menu{
+		position: relative;
+		top: 10px;
+		left: 53px;
+
+	}
+
+	&__list{
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 40px;
+
+	}
+	&__link{
+		white-space: nowrap;
+		text-decoration: none;
+		span{
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 16px;
+			transition: opacity 0.3s;
+			color: rgba(21, 1, 1, 0.6);
+		}
+	&::before{
+		content: attr(data-name);
+		position: absolute;
+		font-weight: 700;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $primary_pink;
+
+		transition: opacity 0.1s;
+		opacity: 0;
+	}
+	&:hover{
+		span{
+			opacity: 0;
+		}
+		&::before{
+			opacity: 1;
+		}
+	}
+
+	}
+	&__btn{
+		position: relative;
+		top: 9px;
+		left: 23px;
+	}
 }
 
-
-.header__list{
+.fs{
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.header__link{
-	text-decoration: none;
-	span{
+	padding: 37px 0 212px 0;
+	align-items: center;
+	&__content{
+		max-width: 665.37px;
+		margin: 169px 0 0 -5px;
+	}
+	&__subtitle{
 		font-family: 'Roboto';
-		font-weight: 400;
+		font-weight: 500;
 		font-size: 14px;
 		line-height: 16px;
-		color: rgba(21, 1, 1, 0.6);
+		letter-spacing: 0.1em;
+		color: #0F0101;
+		margin-bottom: 6px;
+	}
+	&__title{
+		font-family: 'Fredoka One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 57.33px;
+		line-height: 69px;
+		color: #0F0101;
+		opacity: 0.9;
+		margin-bottom: 26px;
+		span{
+			color: #D23166;
+		}
+	}
+	&__text{
+		max-width: 523px;
+		font-family: 'Hind Madurai';
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #0F0101;
 		opacity: 0.6;
 	}
+	&__btn{
+		margin-top: 47px;
+	}
+	&__imgs{
+		position: absolute;
+		}
+	&__icecream{
+		position: absolute;
+		top: 52px;
+		left: 629px;
+		z-index: 5;
+	}
+	&__milk{
+		position: relative;
+		top: 180px;
+		left: 478px;
+		z-index: 6;
+	}
+	&__elli{
+		position: absolute;
+		top: 336px;
+		left: 745px;
+		z-index: 4;
+	}
+
 }
