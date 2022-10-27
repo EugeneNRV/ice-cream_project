@@ -1,22 +1,22 @@
 .header
 	.container
 		.header__head
-			img.header__logo(src="./assets/imgs/section1/logo.png", alt="logo")
+			img(src="./assets/imgs/section1/logo.png", alt="logo")
 			menu.header__menu
-				a.header__link(href="#") Home
-				a.header__link(href="#") Product
-				a.header__link(href="#") Pricing
-				a.header__link(href="#") Testimonials
-				a.header__link(href="#") Contact Us
+				ul.header__list
+					li.header__item
+						a.header__link(href="#")
+							span Home
+					li.header__item
+						a.header__link(href="#")
+							span Product
+					li.header__item
+						a.header__link(href="#")
+							span Pricing
+					li.header__item
+						a.header__link(href="#")
+							span Testimonials
+					li.header__item
+						a.header__link(href="#")
+							span Contact Us
 			button.btn.header__btn Buy Now
-		.header__fs
-			.header__column
-				h2.header__subtitle Sweet fun, full of milk.
-				h1.header__title Feel inside cold with our delicious
-					span  ice-cream.
-				p.header__text Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mo uthful I've been left eating my thoughts, my words.
-				button.btn.header__btnfs Buy Now
-			.header__imgs
-				img.header__icecream(src="./assets/imgs/section1/icecream.png", alt="icecream")
-				img.header__milk(src="./assets/imgs/section1/milk.png", alt="icecream")
-				img.header__ellips(src="./assets/imgs/section1/Ellipse.png", alt="ellipse")
