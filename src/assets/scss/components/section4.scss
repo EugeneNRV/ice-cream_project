@@ -1,0 +1,72 @@
+@import './main/vars.scss';
+
+.section4{}
+
+.sect4{
+	&__top-title{
+		font-family: 'Hind Madurai';
+		font-weight: 600;
+		font-size: 44.2px;
+		line-height: 61px;
+		max-width: 239px;
+		margin: 0 auto;
+	}
+	&__menu{
+		display: flex;
+		justify-content: center;
+		padding: 64px 0 52px;
+	}
+	&__list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__item{
+		padding: 0 20px;
+	}
+	&__link{
+		white-space: nowrap;
+		text-decoration: none;
+		span{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 21px;
+			transition: opacity 0.3s;
+			color: rgba(0, 0, 0, 0.6);
+		}
+
+	&::before{
+		content: attr(link-name);
+		position: absolute;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		border-bottom: 3px solid $primary-pink;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #000000;
+
+		transition: opacity 0.1s;
+		opacity: 0;
+	}
+	&:hover{
+		span{
+			opacity: 0;
+		}
+		&::before{
+			opacity: 1;
+		}
+}
+}
+}
+.price-brown{
+	&__img{}
+	&__content{}
+	&__title{}
+	&__text{}
+	&__price{
+		span{}
+	}
+	&__btn{}
+	}

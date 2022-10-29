@@ -10,12 +10,7 @@
 	position: relative;
 }
 
-.container{
-	// position: relative;
-	max-width: 1117px;/*задать ширину*/
-	padding: 0 15px;
-	margin: 0 auto;
-}
+
 
 .head{
 	display: flex;
@@ -47,8 +42,6 @@
 		white-space: nowrap;
 		text-decoration: none;
 		span{
-			font-family: 'Roboto';
-			font-style: normal;
 			font-weight: 400;
 			font-size: 14px;
 			line-height: 16px;
@@ -59,10 +52,12 @@
 		content: attr(data-name);
 		position: absolute;
 		font-weight: 700;
+		font-size: 14px;
+		line-height: 16px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: $primary_pink;
+		color: $primary-pink;
 
 		transition: opacity 0.1s;
 		opacity: 0;
