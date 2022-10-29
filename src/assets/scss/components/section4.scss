@@ -1,6 +1,8 @@
 @import './main/vars.scss';
 
-.section4{}
+.section4{
+	margin-top: 137px;
+}
 
 .sect4{
 	&__top-title{
@@ -12,6 +14,8 @@
 		margin: 0 auto;
 	}
 	&__menu{
+		position: relative;
+		left: 10px;
 		display: flex;
 		justify-content: center;
 		padding: 64px 0 52px;
@@ -61,12 +65,134 @@
 }
 }
 .price-brown{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	&__img{}
-	&__content{}
-	&__title{}
-	&__text{}
-	&__price{
-		span{}
+	&__content{
+		position: relative;
+		left: 77px;
+		bottom: 18px;
 	}
-	&__btn{}
+	&__title{
+		font-family: 'Hind Madurai';
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 36px;}
+	&__text{
+		max-width: 452px;
+		opacity: 0.7;
+		padding: 11px 0 28px;
+	}
+	&__price{
+		font-family: 'Hind Madurai';
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 36px;
+		margin: -2px 0 31px;
+		span{
+			font-family: 'Hind Madurai';
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 28px;
+			text-decoration-line: line-through;
+			opacity: 0.7;
+		}
+	}
+	&__btn{
+		position: relative;
+		bottom: 27px;
+	}
+	}
+.price-cayenne{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 37px;
+	position: relative;
+	left: 35px;
+	&__img{
+		position: relative;
+		top: 28px;
+		left: 83px;
+	}
+	&__content{
+		position: relative;
+		top: 30px;
+		text-align: end;
+	}
+	&__title{
+		font-family: 'Hind Madurai';
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 36px;
+	}
+	&__text{
+		max-width: 452px;
+		opacity: 0.7;
+		padding: 11px 0 28px;
+	}
+	&__price{
+		font-family: 'Hind Madurai';
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 36px;
+		margin-bottom: 10px;
+		span{
+			font-family: 'Hind Madurai';
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 28px;
+			text-decoration-line: line-through;
+			opacity: 0.7;
+		}
+	}
+	&__btn{
+		position: relative;
+		bottom: 5px;
+	}
+}
+
+.price-sweet{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	&__img{
+		position: relative;
+		top: 30px;
+	}
+	&__content{
+		position: relative;
+		left: 77px;
+		top: 40px;
+	}
+	&__title{
+		font-family: 'Hind Madurai';
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 36px;}
+	&__text{
+		max-width: 452px;
+		opacity: 0.7;
+		padding: 11px 0 28px;
+	}
+	&__price{
+		font-family: 'Hind Madurai';
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 36px;
+		margin: -2px 0 31px;
+		span{
+			font-family: 'Hind Madurai';
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 28px;
+			text-decoration-line: line-through;
+			opacity: 0.7;
+		}
+	}
+	&__btn{
+		position: relative;
+		bottom: 27px;
+	}
 	}
