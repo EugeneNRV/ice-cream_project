@@ -1,0 +1,70 @@
+@import './main/vars.scss';
+
+.section5{
+	background: $primary-bgrs;
+	padding: 12px 0 31px 0;
+	margin-top: 139px;
+}
+
+.sect5{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	&__img{
+		position: relative;
+		right: 78px;
+		top: 41px;
+		border-radius: 10px;
+		display: block;
+	}
+	&__content{
+		position: relative;
+		top: 72px;
+		right: 25px;
+	}
+	&__title{
+		font-weight: 500;
+		font-size: 44.2px;
+		line-height: 52px;
+		margin-bottom: 20px;
+	}
+	&__text{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		letter-spacing: 0.01em;
+		opacity: 0.7;
+		max-width: 607px;
+		margin-bottom: 20px;
+	}
+	&__list{
+		margin: 23px 0 41px;
+	}
+	&__item{
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 7px 0;
+
+
+	}
+	&__item-img{
+		width: 30px;
+		height: 30px;
+		border-radius: 3px;
+		background: white;
+		padding: 8px;
+	}
+	&__item-text{
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 26px;
+		margin-left: 10px;
+	}
+	&__app{
+		position: relative;
+		bottom: 12px;
+		right: 12px;
+	}
+	&__link{}
+	&__market{}
+}
