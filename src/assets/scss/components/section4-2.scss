@@ -1,1 +1,91 @@
 @import './main/vars.scss';
+
+.section4-2{
+
+	&__flex{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+.left{}
+
+.review{
+	&__text{
+		max-width: 322px;
+		opacity: 0.7;
+		margin-bottom: 61px;
+		position: relative;
+		bottom: 4px;
+		left: 18px;
+		&::before{
+			content: '';
+			background-image: url("/build/assets/imgs/section4-2/before.png");
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 10px;
+			height: 10px;
+		}
+		&::after{
+			content: '';
+			background-image: url("/build/assets/imgs/section4-2/after.png");
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 10px;
+			height: 10px;
+		}
+	}
+}
+
+.adele{
+	margin-bottom: 46px;
+	display: flex;
+	&__img{}
+}
+
+.adele-data{
+	margin: 0 0 0 21px;
+	&__name{
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	&__nation{
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		opacity: 0.7;
+		margin-top: 5px;
+	}
+}
+
+.swiper{
+	max-width: 258px;
+	padding: 10px;
+	position: relative;
+	bottom: 27px;
+	right: 10px;
+}
+.swiper-wrapper{}
+.swiper-slide{
+	&:hover{
+		z-index:1;
+		img{
+			transform: scale(1.4)
+		}
+
+	}
+}
+
+.right{
+	&__img{
+		position: relative;
+		left: 40px;
+		bottom: 15px;
+	}
+}
+
