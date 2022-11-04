@@ -123,25 +123,25 @@
 	&__btn{
 		margin-top: 47px;
 	}
-	&__imgs{
-		position: absolute;
-		}
+
 	&__icecream{
 		position: absolute;
-		top: 52px;
-		left: 629px;
+		top: 44px;
+		right: -140px;
+		bottom: 0;
 		z-index: 5;
 	}
 	&__milk{
-		position: relative;
-		top: 180px;
-		left: 478px;
+		position: absolute;
+		top: 171px;
+		right: -256px;
+		bottom: 0;
 		z-index: 6;
 	}
 	&__elli{
 		position: absolute;
-		top: 336px;
-		left: 745px;
+		right: -24px;
+		bottom: 98px;
 		z-index: 4;
 	}
 
