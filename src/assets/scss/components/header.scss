@@ -8,6 +8,7 @@
 .header{
 	background: $primary-bgrs;
 	position: relative;
+	overflow: hidden;
 }
 
 
@@ -85,9 +86,10 @@
 	flex-wrap: wrap;
 	padding: 37px 0 212px 0;
 	align-items: center;
+	overflow: hidden;
 	&__content{
 		max-width: 665.37px;
-		margin: 169px 0 0 -5px;
+		margin: 169px 0 0 -3px;
 	}
 	&__subtitle{
 		font-family: 'Roboto';
