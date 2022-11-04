@@ -86,7 +86,7 @@
 	flex-wrap: wrap;
 	padding: 37px 0 212px 0;
 	align-items: center;
-	overflow: hidden;
+	// overflow: hidden;
 	&__content{
 		max-width: 665.37px;
 		margin: 169px 0 0 -3px;
@@ -125,7 +125,6 @@
 	&__btn{
 		margin-top: 47px;
 	}
-
 	&__icecream{
 		position: absolute;
 		top: 44px;
@@ -139,6 +138,7 @@
 		right: -256px;
 		bottom: 0;
 		z-index: 6;
+		max-width: 70vw;
 	}
 	&__elli{
 		position: absolute;
