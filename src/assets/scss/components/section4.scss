@@ -1,7 +1,7 @@
 @import './main/vars.scss';
 
 .section4{
-	margin: 137px 0 154px;
+	padding: 137px 0 154px;
 }
 
 .sect4{
@@ -68,6 +68,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	position: relative;
+	left: 12px;
+	top: 2px;
 	&__img{}
 	&__content{
 		position: relative;
@@ -112,7 +115,7 @@
 	align-items: center;
 	margin-bottom: 37px;
 	position: relative;
-	right: 20px;
+	right: 60px;
 	&__img{
 		position: relative;
 		top: 28px;

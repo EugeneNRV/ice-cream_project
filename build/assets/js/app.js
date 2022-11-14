@@ -1,4 +1,4 @@
-console.log('privet medved');
+console.log('Test');
 
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
